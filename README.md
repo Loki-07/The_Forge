@@ -3,3 +3,25 @@ The intent of this repository is to enable fast configuration of Kali linux syst
 
 Once this repository is cloned run Lokis-armory.sh to download and configure additional tools. 
 
+Lokis-armory will install: 
+-Terminator -- Alternative Termainal 
+-FTP
+-Python packages and pip
+-Bloodhound
+-AWS CLI
+-Git Hub based Tools
+-Boto3
+-Tor
+-Tor Browser
+- Go Language
+
+-Update SearchSploit
+- What Breach
+- WinboxExploit - Mikcortik
+- pwnedOrNot
+- Sublist3r
+- Routersploit
+- Slurp S3 Recon tool
+- One-Lin3r
+- PowerShell Empire
+
