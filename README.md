@@ -5,17 +5,26 @@ Once this repository is cloned run Lokis-armory.sh to download and configure add
 
 Lokis-armory will install: 
 -Terminator -- Alternative Termainal 
+
 -FTP
+
 -Python packages and pip
+
 -Bloodhound
+
 -AWS CLI
+
 -Git Hub based Tools
+
 -Boto3
+
 -Tor
+
 -Tor Browser
+
 - Go Language
 
--Update SearchSploit
+Update SearchSploit
 - What Breach
 - WinboxExploit - Mikcortik
 - pwnedOrNot
