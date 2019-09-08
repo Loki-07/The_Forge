@@ -15,7 +15,7 @@ echo ""
 echo "                                         Last Update 9/1/2019"
 echo ""
 echo ""
-echo "Setting up your system... Standby"
+echo "Preparing your system for Weapons Package... Standby"
 cd ~/Desktop
 mkdir tools
 cd tools
@@ -56,6 +56,26 @@ apt-get install libncurses5-dev
 apt-get install bloodhound
 apt-get install awscl
 pip install boto3
+echo ""
+echo ""
+echo "Initilizing the Metasploit Database"
+systemctl start postgresql
+msfdb init
+echo ""
+echo ""
+echo " Installing Tor service and browser"
+echo ""
+echo " Creating a User - kali for use with Tor "
+adduser --home-dir /home/kali kali
+echo ""
+echo ""
+apt-get install tor 
+apt install torbrowser-launcher
+xhost si:localuser:kali
+echo "to run tor browser in the future use -- sudo -u kali -H torbrowser-launcher -- "
+echo "running tor as root will fail "
+echo ""
+echo ""
 cd ~/Desktop/tools
 #==========================================================#
 echo ""
@@ -63,7 +83,7 @@ echo ""
 #==========================================================#
 # All Git Hub Installs go Below Here
 #==========================================================#
-echo "Installing Specialty Tools into the tools Folder now..."
+echo "Installing weapons package into the tools Folder now..."
 echo ""
 echo ""
 echo "Updating Search Sploit"
