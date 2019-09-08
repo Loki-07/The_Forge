@@ -25,12 +25,20 @@ Lokis-armory will install:
 -Go Language
 
 -Update SearchSploit
+
 -What Breach
+
 -WinboxExploit - Mikcortik
+
 -pwnedOrNot
+
 -Sublist3r
+
 -Routersploit
+
 -Slurp S3 Recon tool
+
 -One-Lin3r
+
 -PowerShell Empire
 
