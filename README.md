@@ -4,6 +4,8 @@ The intent of this repository is to enable fast configuration of Kali linux syst
 Once this repository is cloned run Lokis-armory.sh to download and configure additional tools. 
 
 Lokis-armory will install: 
+- mingw-w64 - Cross Platform Compiler
+
 -Terminator -- Alternative Termainal 
 
 -FTP
