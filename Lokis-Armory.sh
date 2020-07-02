@@ -24,6 +24,7 @@ echo "Your Tools will be installed on the Desktop in the tools Folder"
 echo ""
 echo "Updating your system and Distro now..."
 echo ""
+dpkg --add-architecture i386
 apt-get update
 echo ""
 read -p " Update complete, press any key to continue"
@@ -47,6 +48,7 @@ echo " -- Blood Hound - windows priv esc and unnumeration tool"
 echo " -- AWS CLI and Boto3"
 echo ""
 echo ""
+apt-get install wine32
 apt-get install mingw-w64
 apt-get install terminator 
 apt-get install ftp 
