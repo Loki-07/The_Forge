@@ -47,6 +47,7 @@ echo " -- Blood Hound - windows priv esc and unnumeration tool"
 echo " -- AWS CLI and Boto3"
 echo ""
 echo ""
+apt-get install mingw-w64
 apt-get install terminator 
 apt-get install ftp 
 apt-get install python3
