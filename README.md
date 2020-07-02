@@ -6,42 +6,42 @@ Once this repository is cloned run Lokis-armory.sh to download and configure add
 Lokis-armory will install: 
 - mingw-w64 - Cross Platform Compiler
 
--Terminator -- Alternative Termainal 
+- Terminator -- Alternative Termainal 
 
--FTP
+- FTP
 
--Python packages and pip
+- Python packages and pip
 
--Bloodhound
+- Bloodhound
 
--AWS CLI
+- AWS CLI
 
--Git Hub based Tools
+- Git Hub based Tools
 
--Boto3
+- Boto3
 
--Tor
+- Tor
 
--Tor Browser
+- Tor Browser
 
--Go Language
+- Go Language
 
--Update SearchSploit
+- Update SearchSploit
 
--What Breach
+- What Breach
 
--WinboxExploit - Mikcortik
+- WinboxExploit - Mikcortik
 
--pwnedOrNot
+- pwnedOrNot
 
--Sublist3r
+- Sublist3r
 
--Routersploit
+- Routersploit
 
--Slurp S3 Recon tool
+- Slurp S3 Recon tool
 
--One-Lin3r
+- One-Lin3r
 
--PowerShell Empire
+- PowerShell Empire
 
 
