@@ -10,7 +10,7 @@ Lokis-armory will install:
 
 - Terminator -- Alternative Termainal 
 
-- FTP
+- VsFTPd
 
 - Python packages and pip
 
