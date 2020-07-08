@@ -51,7 +51,7 @@ echo ""
 apt-get install wine32
 apt-get install mingw-w64
 apt-get install terminator 
-apt-get install ftp 
+apt-get install vsftpd 
 apt-get install python3
 apt-get install python-pip
 apt-get install python3-pip
