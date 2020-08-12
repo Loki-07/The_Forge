@@ -46,4 +46,17 @@ Lokis-armory will install:
 
 - PowerShell Empire
 
+- URLCrazy
+
+- GoBuster
+
+- seclists
+
+- viel
+
+- oscanner
+
+- sipviciouse 
+
+- crackmapexec
 
