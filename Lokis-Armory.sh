@@ -12,7 +12,7 @@ echo ""
 echo "                                       Created in Lokis Forge"
 echo "                                        Lokis-notebook.org "
 echo ""
-echo "                                         Last Update 9/1/2019"
+echo "                                         Last Update 8/12/2020"
 echo ""
 echo ""
 echo "Preparing your system for Weapons Package... Standby"
@@ -48,16 +48,33 @@ echo " -- Blood Hound - windows priv esc and unnumeration tool"
 echo " -- AWS CLI and Boto3"
 echo ""
 echo ""
-apt-get install wine32
-apt-get install mingw-w64
-apt-get install terminator 
-apt-get install vsftpd 
-apt-get install python3
-apt-get install python-pip
-apt-get install python3-pip
-apt-get install libncurses5-dev
-apt-get install bloodhound
-apt-get install awscl
+apt-get install wine32 -y
+apt-get install mingw-w64 -y
+apt-get install terminator -y 
+apt-get install vsftpd -y  
+apt-get install python3 -y 
+apt-get install python-pip -y 
+apt-get install python3-pip -y 
+apt-get install libncurses5-dev -y 
+apt-get install bloodhound -y
+apt-get install gobuster -y
+apt-get install awscl -y
+apt-get install golang-go -y
+#oneoff Domain finder
+apt-get install urlcrazy -y
+#Collection of lists for security testing
+apt-get install seclists -y
+apt-get install powershell -y
+apt-get install veil -y
+# Oracle Tools
+apt-get install oscanner -y
+apt-get install tnscmd10g -y
+#
+apt-get install smtp-user-enum -y
+#VOIP Attack
+apt-get install sipvicious -y
+#large active directory recon
+apt-get install crackmapexec -y
 pip install boto3
 echo ""
 echo ""
@@ -123,13 +140,15 @@ echo ""
 cd /~Desktop/tools
 echo ""
 echo ""
-echo "Installing Go Language"
-mkdir golang
-cd golang
-wget https://dl.google.com/go/go1.12.7.linux-amd64.tar.gz
-tar -xvf go1.12.7.linux-amd64.tar.gz
-export GOROOT=/root/Desktop/tools/golang/go
-export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+#### Go Lang install replaced with apt-get install golang-go
+#echo "Installing Go Language"
+#mkdir golang
+#cd golang
+#wget https://dl.google.com/go/go1.12.7.linux-amd64.tar.gz
+#tar -xvf go1.12.7.linux-amd64.tar.gz
+#export GOROOT=/root/Desktop/tools/golang/go
+#export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
 cd ~/Desktop/tools
 echo ""
 echo ""
@@ -140,10 +159,12 @@ go build
 cd ~/Desktop/tools
 echo ""
 echo ""
+
 echo "Installing One-Lin3r"
-git clone https://github.com/D4Vinci/One-Lin3r.git
-cd One-Lin3r
-pip install One-Lin3r
+pip3 install one-lin3r
+#git clone https://github.com/D4Vinci/One-Lin3r.git
+#cd One-Lin3r
+#pip install One-Lin3r
 cd ~/Desktop/tools
 echo ""
 echo ""
@@ -153,6 +174,24 @@ cd Empire
 chmod +x setup/install.sh 
 ./setup/install.sh
 cd ~/Desktop/tools
+echo ""
+echo ""
+echo "Installing Legion (Formerlay Spart)"
+#Install legion
+git clone https://github.com/carlospolop/legion.git
+cd legion/git
+./install.sh
+ln -sf /root/tools/legion/legion.py /usr/bin/legion
+cd ~/Desktop/tools
+echo ""
+echo ""
+echo "Installing Powersploit"
+#Install Powersploit
+git clone https://github.com/PowerShellMafia/PowerSploit
+cd ~/Desktop/tools
+#echo "Installing Powersploit"
+
+
 echo ""
 echo ""
 echo ""
