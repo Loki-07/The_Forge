@@ -191,6 +191,9 @@ git clone https://github.com/PowerShellMafia/PowerSploit
 cd ~/Desktop/tools
 #echo "Installing Powersploit"
 
+echo "Installing LinEnum Script"
+git clone https://github.com/rebootuser/LinEnum.git
+cd ~/Desktop/tools
 
 echo ""
 echo ""
