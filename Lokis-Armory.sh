@@ -190,9 +190,15 @@ echo "Installing Powersploit"
 git clone https://github.com/PowerShellMafia/PowerSploit
 cd ~/Desktop/tools
 #echo "Installing Powersploit"
-
+echo ""
+echo ""
 echo "Installing LinEnum Script"
 git clone https://github.com/rebootuser/LinEnum.git
+cd ~/Desktop/tools
+echo ""
+echo ""
+echo "hURL encoder/decoder"
+git clone https://github.com/fnord0/hURL.git
 cd ~/Desktop/tools
 
 echo ""
