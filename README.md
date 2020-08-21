@@ -60,3 +60,7 @@ Lokis-armory will install:
 
 - crackmapexec
 
+- LinEnum.sh 
+
+- hURL
+
