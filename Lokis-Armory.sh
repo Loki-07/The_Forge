@@ -176,6 +176,8 @@ chmod +x setup/install.sh
 cd ~/Desktop/tools
 echo ""
 echo ""
+
+
 echo "Installing Legion (Formerlay Spart)"
 #Install legion
 git clone https://github.com/carlospolop/legion.git
@@ -185,6 +187,8 @@ ln -sf /root/tools/legion/legion.py /usr/bin/legion
 cd ~/Desktop/tools
 echo ""
 echo ""
+
+
 echo "Installing Powersploit"
 #Install Powersploit
 git clone https://github.com/PowerShellMafia/PowerSploit
@@ -192,11 +196,15 @@ cd ~/Desktop/tools
 #echo "Installing Powersploit"
 echo ""
 echo ""
+
+
 echo "Installing LinEnum Script"
 git clone https://github.com/rebootuser/LinEnum.git
 cd ~/Desktop/tools
 echo ""
 echo ""
+
+
 echo "hURL encoder/decoder"
 git clone https://github.com/fnord0/hURL.git
 cd ~/Desktop/tools
@@ -204,6 +212,10 @@ cd ~/Desktop/tools
 echo ""
 echo ""
 echo ""
+echo "Installing nmapAutomator"
+git clone https://github.com/21y4d/nmapAutomator.git
+cd ~/Desktop/tools
+
 echo ""
 echo "================================================================================="
 echo ""
