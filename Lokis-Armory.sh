@@ -12,7 +12,7 @@ echo ""
 echo "                                       Created in Lokis Forge"
 echo "                                        Lokis-notebook.org "
 echo ""
-echo "                                         Last Update 8/12/2020"
+echo "                                         Last Update 9/15/2020"
 echo ""
 echo ""
 echo "Preparing your system for Weapons Package... Standby"
@@ -46,6 +46,15 @@ echo " -- Python pip, python3 pip"
 echo " -- Dependancies for Git Hub based tools"
 echo " -- Blood Hound - windows priv esc and unnumeration tool"
 echo " -- AWS CLI and Boto3"
+echo " --  Golang"
+echo " -- URL Crazy - find one off URLS"
+echo " -- viel"
+echo " -- Powershell"
+echo " -- Oracle Tools OSscanner"
+echo " -- SMTP User Enum Tool"
+echo " -- sipvisciouse VOIP Tester"
+echo " -- Crack Map Exec - Large AD tool"
+echo " -- 
 echo ""
 echo ""
 apt-get install wine32 -y
@@ -62,8 +71,8 @@ apt-get install awscl -y
 apt-get install golang-go -y
 #oneoff Domain finder
 apt-get install urlcrazy -y
-#Collection of lists for security testing
-apt-get install seclists -y
+#Collection of lists for security testing - Replaced by edited versions of usefull lists to make it more managable
+#apt-get install seclists -y
 apt-get install powershell -y
 apt-get install veil -y
 # Oracle Tools
@@ -178,7 +187,7 @@ echo ""
 echo ""
 
 
-echo "Installing Legion (Formerlay Spart)"
+echo "Installing Legion (Formerlay Sparta)"
 #Install legion
 git clone https://github.com/carlospolop/legion.git
 cd legion/git
